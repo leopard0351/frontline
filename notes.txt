@@ -1,0 +1,32 @@
+ok for frontline, after watching the video frontline preparedness expect the unexpected we need a 
+
+class list on one page with all he classes and maybe a drop down or pop up explanation of each, we need a form with drop
+downs to select individual class or the whole learning lessons, we can have pricing per class if 
+that is ready and then a call fro group classes, corporate, government, military or foreign country classes
+
+we need a main page with a main hero and then a brief description of frontline as a company and a link to frontline
+academy everywhere as that's the main feature. 
+
+on the academy page we need each scenerio certificate/field training/special events and collaborations 
+alos need group event for corporate/government/military/private citizen 
+we need something sayin gov contractis/military
+
+something that gives an overview of topics in that thought circle and click to see all course
+
+we need something for them to click for special events collab page with a link to the collaborations that are active
+
+we need a page for corporate/gove/military contracts with a link to get more info
+
+we need a way for them signing up for group events both online and in person
+
+we need something going over what we do and why we do it in the academy
+
+academy link for current students
+
+see his page for more ideas and just work off of th etemplat with modal pop ups and add pricing maybe as a modal or 
+hard coded on the page
+
+need a blurb about cody and about why he started this and this could be an about page
+
+need something about the certificates, why get them from us, who are we in the process of working with to make them 
+legit
