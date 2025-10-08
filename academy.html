@@ -33,6 +33,38 @@
   <!-- Nepcha Analytics (nepcha.com) -->
   <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+  <style>
+.academy-tagline {
+  font-family: 'Dancing Script', cursive; /* or Great Vibes */
+  font-size: 1.2rem;   /* smaller */
+  color: #444;         /* softer, less bold */
+  margin: 0 auto;      /* keep it centered */
+  line-height: 1.4;    /* compact spacing */
+}
+.image-container {
+  width: 340px;      /* or tweak to 320px / 300px if still too big */
+  height: auto;      /* keep proportions */
+  max-width: 90%;    /* prevents overflow on smaller containers */
+  border-radius: 0.75rem; /* matches design */
+}
+.tagline-wrapper {
+  display: flex;
+  justify-content: center;   /* centers the block on the page */
+}
+
+.blur-shadow-image img.image-left {
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.12));
+  border-radius: 0.75rem;
+}
+
+.image-left {
+  height: 380px;        /* match demo look; adjust to 340–420 if needed */
+  width: 100%;
+  object-fit: cover;    /* crop instead of squish */
+  object-position: center;
+  display: block;
+}
+</style>
 </head>
 
 <body class="case-study">
@@ -1311,7 +1343,7 @@
   <header>
     <div class="page-header min-vh-85">
       <div>
-        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/academy.png" alt="image">
+        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/hero2.png" alt="image">
       </div>
       <div class="container">
         <div class="row">
@@ -1324,24 +1356,13 @@
                 individuals, businesses, and agencies for any challenge..
               </p>
               <div class="buttons">
-                <button type="button" class="btn btn-rounded bg-primary mt-4">Contact Us</button>
-                <button type="button" class="btn btn-rounded btn-outline-secondary mt-4 ms-2">Read More</button>
+                <button type="button" class="btn btn-rounded btn-outline-primary mt-4">Request Info</button>
+                <button type="button" class="btn btn-rounded btn-outline-secondary mt-4 ms-2">View Courses & Events</button>
               </div>
-              <div class="row mt-2">
-                <div class="col-md-3 col-6 p-0">
-                  <img class="w-100" src="/assets/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
-                </div>
-                <div class="col-md-3 col-6 p-0">
-                  <img class="w-100" src="/assets/img/logos/gray-logos/logo-netflix.svg" alt="logo">
-                </div>
-                <div class="col-md-3 col-6 p-0">
-                  <img class="w-100" src="/assets/img/logos/gray-logos/logo-coinbase.svg" alt="logo">
-                </div>
-                <div class="col-md-3 col-6 p-0">
-                  <img class="w-100" src="/assets/img/logos/gray-logos/logo-nasa.svg" alt="logo">
-                </div>
-              </div>
-            </div>
+    <div class="tagline-wrapper">
+  <p class="academy-tagline">“Expect the Unexpected”</p>
+</div>
+
           </div>
         </div>
       </div>
@@ -1356,7 +1377,7 @@
           <div class="info">
             <div class="icon icon-shape text-center">
               <svg class="text-primary" width="25px" height="25px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>box-3d-50</title>
+                <title>Core Courses</title>
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g transform="translate(-2319.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
                     <g transform="translate(1716.000000, 291.000000)">
@@ -1370,15 +1391,15 @@
                 </g>
               </svg>
             </div>
-            <h5 class="mt-2">Components</h5>
-            <p>Choose the best design system for your next product.</p>
-          </div>
+           <h5 class="mt-2">Core Courses</h5>
+          <p>Short, practical training—online & on-site.</p>
         </div>
+      </div>
         <div class="col-lg-3 col-md-6">
           <div class="info">
             <div class="icon icon-shape text-center">
               <svg class="text-primary" width="25px" height="25px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>customer-support</title>
+                <title>Custom Action Plans</title>
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
                     <g transform="translate(1716.000000, 291.000000)">
@@ -1392,15 +1413,15 @@
                 </g>
               </svg>
             </div>
-            <h5 class="mt-2">Design</h5>
-            <p>Get the latest design ideas and turn it into reality.</p>
-          </div>
+              <h5 class="mt-2">Custom Action Plans</h5>
+          <p>Tailored playbooks for homes, teams & facilities.</p>
         </div>
+      </div>
         <div class="col-lg-3 col-md-6">
           <div class="info">
             <div class="icon icon-shape text-center">
               <svg class="text-primary" width="25px" height="25px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>spaceship</title>
+                <title>Emergency Binder System</title>
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
                     <g transform="translate(1716.000000, 291.000000)">
@@ -1415,10 +1436,10 @@
                 </g>
               </svg>
             </div>
-            <h5 class="mt-2">Less Code</h5>
-            <p>Make your code easier to maintain using variables.</p>
-          </div>
+             <h5 class="mt-2">Emergency Binder System</h5>
+          <p>Grab-and-go binders with checklists & contacts.</p>
         </div>
+      </div>
         <div class="col-lg-3 col-md-6">
           <div class="info">
             <div class="icon icon-shape text-center">
@@ -1437,41 +1458,201 @@
                 </g>
               </svg>
             </div>
-            <h5 class="mt-2">Fully Responsive</h5>
-            <p>This design system is fully supported on any device.</p>
-          </div>
+              <h5 class="mt-2">Team & Agency Training</h5>
+          <p>Group drills, AARs, badges & certifications.</p>
         </div>
+      </div>
       </div>
     </div>
   </section>
   <!-- -------- END Features w/ 4 infos - just colored icons -------- -->
+    <section class="bg-primary position-relative overflow-hidden">
+  <img src="../../assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute opacity-6">
+  <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+    <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-down</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#FFFFFF" fill-rule="nonzero">
+                <g id="wave-down">
+                    <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <div class="container pt-6 pb-7">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="row justify-content-start">
+          <div class="col-md-6">
+            <div class="info">
+              <div class="icon icon-md">
+              <svg width="25px" height="25px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>spaceship</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(1716.000000, 291.000000)">
+                      <g transform="translate(4.000000, 301.000000)">
+                        <path d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                        <path d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                        <path d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                        <path d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" id="color-3" opacity="0.598539807"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+              <h5 class="text-white">Fully integrated</h5>
+              <p class="text-white opacity-8">We get insulted by others, lose trust for those We get back freezes</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info">
+              <div class="icon icon-md">
+                <svg width="25px" height="25px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>briefcase-24</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(-2170.000000, -292.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g transform="translate(1716.000000, 291.000000)">
+                                <g id="briefcase-24" transform="translate(454.000000, 1.000000)">
+                                    <path d="M26.25,31.5 L26.25,35 L15.75,35 L15.75,31.5 L1.75,31.5 L1.75,40.25 C1.75,41.216 2.534,42 3.5,42 L38.5,42 C39.466,42 40.25,41.216 40.25,40.25 L40.25,31.5 L26.25,31.5 Z"></path>
+                                    <path d="M40.25,7 L29.75,7 L29.75,1.75 C29.75,0.784 28.966,0 28,0 L14,0 C13.034,0 12.25,0.784 12.25,1.75 L12.25,7 L1.75,7 C0.784,7 0,7.784 0,8.75 L0,26.25 C0,27.216 0.784,28 1.75,28 L15.75,28 L15.75,22.75 L26.25,22.75 L26.25,28 L40.25,28 C41.216,28 42,27.216 42,26.25 L42,8.75 C42,7.784 41.216,7 40.25,7 Z M26.25,7 L15.75,7 L15.75,3.5 L26.25,3.5 L26.25,7 Z" opacity="0.6"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+              </div>
+              <h5 class="text-white">Payments functionality</h5>
+              <p class="text-white opacity-8">We get insulted by others, lose trust for those We get back freezes</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-start">
+          <div class="col-md-6">
+            <div class="info">
+              <div class="icon icon-md">
+                <svg width="25px" height="25px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>map-big</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(-2321.000000, -593.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g transform="translate(1716.000000, 291.000000)">
+                                <g id="map-big" transform="translate(605.000000, 302.000000)">
+                                    <polygon points="31.875 0.71625 24.375 4.46625 24.375 40.53375 31.875 36.78375"></polygon>
+                                    <polygon points="20.625 4.46625 13.125 0.71625 13.125 36.78375 20.625 40.53375"></polygon>
+                                    <path d="M9.375,0.81375 L0.909375,5.893125 C0.346875,6.230625 0,6.84 0,7.5 L0,43.125 L9.375,37.06125 L9.375,0.81375 Z" opacity="0.70186942"></path>
+                                    <path d="M44.090625,5.893125 L35.625,0.81375 L35.625,37.06125 L45,43.125 L45,7.5 C45,6.84 44.653125,6.230625 44.090625,5.893125 Z" opacity="0.70186942"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+              </div>
+              <h5 class="text-white">Prebuilt components</h5>
+              <p class="text-white opacity-8">We get insulted by others, lose trust for those We get back freezes</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info">
+              <div class="icon icon-md">
+                <svg width="25px" height="25px" viewBox="0 0 42 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>time-alarm</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(-2319.000000, -440.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g transform="translate(1716.000000, 291.000000)">
+                                <g id="time-alarm" transform="translate(603.000000, 149.000000)">
+                                    <path d="M18.8086957,4.70034783 C15.3814926,0.343541521 9.0713063,-0.410050841 4.7145,3.01715217 C0.357693695,6.44435519 -0.395898667,12.7545415 3.03130435,17.1113478 C5.53738466,10.3360568 11.6337901,5.54042955 18.8086957,4.70034783 L18.8086957,4.70034783 Z" opacity="0.6"></path>
+                                    <path d="M38.9686957,17.1113478 C42.3958987,12.7545415 41.6423063,6.44435519 37.2855,3.01715217 C32.9286937,-0.410050841 26.6185074,0.343541521 23.1913043,4.70034783 C30.3662099,5.54042955 36.4626153,10.3360568 38.9686957,17.1113478 Z" opacity="0.6"></path>
+                                    <path d="M34.3815652,34.7668696 C40.2057958,27.7073059 39.5440671,17.3375603 32.869743,11.0755718 C26.1954189,4.81358341 15.8045811,4.81358341 9.13025701,11.0755718 C2.45593289,17.3375603 1.79420418,27.7073059 7.61843478,34.7668696 L3.9753913,40.0506522 C3.58549114,40.5871271 3.51710058,41.2928217 3.79673036,41.8941824 C4.07636014,42.4955431 4.66004722,42.8980248 5.32153275,42.9456105 C5.98301828,42.9931963 6.61830436,42.6784048 6.98113043,42.1232609 L10.2744783,37.3434783 C16.5555112,42.3298213 25.4444888,42.3298213 31.7255217,37.3434783 L35.0188696,42.1196087 C35.6014207,42.9211577 36.7169135,43.1118605 37.53266,42.5493622 C38.3484064,41.9868639 38.5667083,40.8764423 38.0246087,40.047 L34.3815652,34.7668696 Z M30.1304348,25.5652174 L21,25.5652174 C20.49574,25.5652174 20.0869565,25.1564339 20.0869565,24.6521739 L20.0869565,15.5217391 C20.0869565,15.0174791 20.49574,14.6086957 21,14.6086957 C21.50426,14.6086957 21.9130435,15.0174791 21.9130435,15.5217391 L21.9130435,23.7391304 L30.1304348,23.7391304 C30.6346948,23.7391304 31.0434783,24.1479139 31.0434783,24.6521739 C31.0434783,25.1564339 30.6346948,25.5652174 30.1304348,25.5652174 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+              </div>
+              <h5 class="text-white">Improved platform</h5>
+              <p class="text-white opacity-8">We get insulted by others, lose trust for those We get back freezes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ms-auto">
+        <div class="card mb-lg-5">
+          <img class="card-img-top" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/mic-check.jpg">
+          <div class="position-relative overflow-hidden" style="height:50px;margin-top:-50px;">
+            <div class="position-absolute w-100 top-0 z-index-1">
+                <svg class="waves waves-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+                  <defs>
+                    <path id="card-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                  </defs>
+                  <g class="moving-waves">
+                    <use xlink:href="#card-wave" x="48" y="-1" fill="rgba(255,255,255,0.30"></use>
+                    <use xlink:href="#card-wave" x="48" y="3" fill="rgba(255,255,255,0.35)"></use>
+                    <use xlink:href="#card-wave" x="48" y="5" fill="rgba(255,255,255,0.25)"></use>
+                    <use xlink:href="#card-wave" x="48" y="8" fill="rgba(255,255,255,0.20)"></use>
+                    <use xlink:href="#card-wave" x="48" y="13" fill="rgba(255,255,255,0.15)"></use>
+                    <use xlink:href="#card-wave" x="48" y="16" fill="rgba(255,255,255,0.99)"></use>
+                  </g>
+                </svg>
+              </div>
+          </div>
+          <div class="card-body">
+            <h4>
+              Soft UI Design System
+            </h4>
+            <p>
+              One of the most beautiful and complex UI Kits built by the team behind Creative Tim. That&#39;s pretty impressive.
+            </p>
+            <a href="javascript:;" class="text-primary icon-move-right">More about us
+              <i class="fas fa-arrow-right text-xs ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="position-absolute w-100 bottom-0">
+    <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-up</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <g id="wave-up" transform="translate(0.000000, -5.000000)">
+                    <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z"></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
+</section>
+
   <!-- START Blogs w/ 3 images & quote & text -->
   <section>
     <div class="container">
       <div class="row">
         <div class="col-md-6 ms-auto me-auto text-center">
-          <h2 class="text-gradient text-primary">From nothing to something</h2>
-          <p>
-            The highest status people in human history are those that asked for nothing and gave everything
-          </p>
+          <h2 class="text-gradient text-primary">Preparedness Is a Mindset</h2>
+        <p>“When it counts, you don’t rise to the occasion — you fall to your level of training.”</p>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-md-6 position-relative">
           <div class="position-relative ms-md-5 me-md-n5">
             <div class="blur-shadow-image">
-              <img class="image-left rounded-3 img-fluid position-relative top-0 end-0 bg-cover" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg" alt="image">
+              <img class="image-left rounded-3 img-fluid position-relative top-0 end-0 bg-cover" src="assets/img/one.png" alt="image">
             </div>
           </div>
-          <p class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly"
+          <p class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">  “The calmest person in the room is usually the one who trained for the chaos.”
             <br>
             <br>
-            <small>-NOAA</small>
+            <small>Frontline Instructor</small>
           </p>
           <!-- Second image on the left side of the article -->
           <div class="position-absolute bottom-0 mb-5 ms-n2 me-3 start-0 end-2 d-md-block d-none">
             <div class="blur-shadow-image">
-              <img class="image-container rounded-3 img-fluid position-relative bg-cover" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg" alt="image">
+              <img 
+              class="image-left rounded-3 img-fluid position-relative top-0 end-0 bg-cover" src="assets/img/two.png"
+               alt="image">
             </div>
           </div>
         </div>
@@ -1479,295 +1660,139 @@
           <!-- First image on the right side, above the article -->
           <div class="position-relative ms-n4 mb-5 mt-8 d-md-block d-none">
             <div class="blur-shadow-image">
-              <img class="image-right rounded-3 img-fluid position-relative bg-cover" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg" alt="image">
+              <img class="image-left rounded-3 img-fluid position-relative top-0 end-0 bg-cover" src="assets/img/three.png" alt="image">
             </div>
           </div>
-          <h3 class="mb-4">So what does the new record for the lowest level of winter ice actually mean</h3>
-          <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
-          </p>
-          <p>
-            For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.
-          </p>
-          <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
-          </p>
+           <h3 class="mb-4">The Mission Behind Frontline Academy</h3>
+       
+<p>
+  Frontline Academy was built by those who’ve faced the unexpected and understand the cost of not being ready. 
+  Our mission is to bridge the gap between theory and reality through hands-on, adaptive training that builds both skill and mindset.
+</p>
+
+<p>
+  Every course and workshop is designed to strip away the noise and teach what actually works when time is short and pressure is high. 
+  We emphasize decision-making, communication, and composure—the fundamentals that turn uncertainty into control. 
+</p>
+
+<p>
+  From emergency action planning to team coordination and leadership under pressure, our approach is grounded in experience and refined through real-world scenarios. 
+  Students don’t just learn concepts—they practice them until confidence replaces hesitation.
+</p>
+
+<p>
+  Whether you’re protecting your family, leading a department, or preparing a unit, the goal remains the same: 
+  to stay calm, capable, and ready when others can’t. 
+  Because in the end, preparedness isn’t about fear—it’s about responsibility, discipline, and peace of mind.
+</p>
         </div>
       </div>
     </div>
   </section>
   <!-- END Blogs w/ 3 images & quote & text -->
-  <section class="bg-primary position-relative overflow-hidden">
-    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute opacity-6">
-    <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
-      <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <title>wave-down</title>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g fill="#FFFFFF" fill-rule="nonzero">
-            <g id="wave-down">
-              <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
-            </g>
-          </g>
-        </g>
-      </svg>
-    </div>
-    <div class="container py-lg-10 py-7">
-      <div class="row">
-        <div class="col-lg-6 d-flex justify-content-center flex-column">
-          <div id="carouselExampleIndicator" class="carousel slide py-7" data-bs-ride="carousel">
-            <div class="carousel-indicators justify-content-start ms-0">
-              <a href="javascript:;">
-                <img src="assets/img/team-4.jpg" alt="..." class="avatar avatar-sm avatar-scale-up shadow border-0 active" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0">
-                <span class="text-white mx-2">&#124;</span>
-              </a>
-              <a href="javascript:;">
-                <img src="assets/img/team-3.jpg" alt="..." class="avatar avatar-sm avatar-scale-up shadow border-0" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="1">
-                <span class="text-white mx-2">&#124;</span>
-              </a>
-              <a href="javascript:;">
-                <img src="assets/img/team-2.jpg" alt="..." class="avatar avatar-sm avatar-scale-up shadow border-0" data-bs-target="#carouselExampleIndicator" data-bs-slide-to="2">
-              </a>
-            </div>
-            <div class="carousel-inner">
-              <h2 class="text-white mb-0">Work with us</h2>
-              <p class="text-white opacity-8 mb-1">Whatever your qualification is - we got you!</p>
-              <hr class="text-white horizontal opacity-6 mb-4 mt-2 w-25 text-start">
-              <div class="carousel-item active">
-                <h6 class="text-white opacity-8 pe-5">"Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea.
-                  Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone.
-                  This is the way to success. A single rose can be my garden... a single friend, my world."</h6>
-                <div class="author mt-4">
-                  <div class="name">
-                    <span class="text-white">Ludwig Siato</span>
-                    <div class="stats">
-                      <small class="text-white opacity-6">Project manager, Apple</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <h6 class="text-white opacity-8 pe-5">"Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea.
-                  Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone.
-                  This is the way to success. A single rose can be my garden... a single friend, my world."</h6>
-                <div class="author mt-4">
-                  <div class="name">
-                    <span class="text-white">John Down</span>
-                    <div class="stats">
-                      <small class="text-white opacity-6">CFO, Google</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <h6 class="text-white opacity-8 pe-5">"Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea.
-                  Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone.
-                  This is the way to success. A single rose can be my garden... a single friend, my world."</h6>
-                <div class="author mt-4">
-                  <div class="name">
-                    <span class="text-white">Mark Jojansen</span>
-                    <div class="stats">
-                      <small class="text-white opacity-6">Fullstack Developer, Atlassian</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 justify-content-center flex-column d-sm-none d-md-none d-lg-flex d-xl-flex">
-          <div class="row justify-content-center d-none d-md-flex">
-            <div class="col-3 mb-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mt-n4 ms-8 fadeIn2 fadeInBottom">
-                <img src="assets/img/logos/small-logos/logo-asana.svg" alt="Logo Image">
-              </div>
-            </div>
-            <div class="col-4 mb-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-8 mt-n6 fadeIn1 fadeInBottom">
-                <img src="assets/img/logos/small-logos/logo-slack.svg" alt="Logo Image">
-              </div>
-            </div>
-            <div class="col-4 mb-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-6 mt-2 fadeIn3 fadeInBottom">
-                <img src="assets/img/logos/small-logos/logo-google-drive.svg" alt="Logo Image">
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-end d-none d-md-flex">
-            <div class="col-4 my-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-4 fadeIn1 fadeInBottom">
-                <img class="avatar-img" src="assets/img/logos/small-logos/logo-shopify.svg" alt="Logo Image">
-              </div>
-            </div>
-            <div class="col-3 my-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 me-auto fadeIn1 fadeInBottom">
-                <img class="avatar-img" src="assets/img/logos/small-logos/logo-apple.svg" alt="Logo Image">
-              </div>
-            </div>
-            <div class="col-3 my-4">
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 fadeIn3 fadeInBottom ms-3 mt-3">
-                <img class="avatar-img" src="assets/img/logos/small-logos/logo-invision.svg" alt="Logo Image">
-              </div>
-            </div>
-          </div>
-          <div class="row d-none d-md-flex">
-            <div class="col-6">
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 ms-auto mt-5 fadeIn2 fadeInBottom">
-                <img class="avatar-img" src="assets/img/logos/small-logos/logo-atlassian.svg" alt="Logo Image">
-              </div>
-              <!-- End Logo -->
-            </div>
-            <div class="col-6 mt-6">
-              <!-- Logo -->
-              <div class="d-block bg-white avatar avatar-lg rounded-circle p-3 mx-auto mt-n3 fadeIn3 fadeInBottom">
-                <img class="avatar-img" src="assets/img/logos/small-logos/logo-weave.svg" alt="Logo Image">
-              </div>
-              <!-- End Logo -->
-            </div>
-          </div>
-        </div>
+ <!-- START Project section w/ 3 tilt cards -->
+<section class="py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-8 text-center mx-auto">
+        <p class="mb-1 text-gradient text-primary">Coming soon</p>
+        <h3>Some of our Upcoming Events</h3>
+        <p class="mb-1 text-gradient text-primary">Click on the Event for More Info or to Sign Up</p>
       </div>
     </div>
-    <div class="position-absolute w-100 bottom-0">
-      <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <title>wave-up</title>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <g id="wave-up" transform="translate(0.000000, -5.000000)">
-              <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z"></path>
-            </g>
-          </g>
-        </g>
-      </svg>
-    </div>
-  </section>
-  <section class="py-7">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 ms-auto me-auto text-center">
-          <div class="p-3 info-hover-warning">
-            <div class="icon icon-shape bg-primary shadow icon-shape-circle text-primary">
-              <i class="fa fa-cogs"></i>
-            </div>
-          </div>
-          <h3 class="text-gradient text-primary mb-0 mt-4">Beware The Components</h3>
-          <h3>How To Handle Them</h3>
-          <p>We’re constantly trying to express ourselves and actualize our dreams. Don't stop.</p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-4 ms-auto my-auto">
-          <div class="cursor-pointer">
-            <div class="card card-background tilt" data-tilt="">
-              <div class="full-background" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg')"></div>
-              <div class="card-body pt-7 text-center">
-                <div class="icon icon-lg up mb-3">
-                  <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title>chart-pie-35</title>
-                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g transform="translate(-1720.000000, -742.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                        <g transform="translate(1716.000000, 291.000000)">
-                          <g transform="translate(4.000000, 451.000000)">
-                            <path d="M21.6666667,18.3333333 L39.915,18.3333333 C39.11,8.635 31.365,0.89 21.6666667,0.085 L21.6666667,18.3333333 Z" opacity="0.602864583"></path>
-                            <path d="M20.69,21.6666667 L7.09833333,35.2583333 C10.585,38.21 15.085,40 20,40 C30.465,40 39.0633333,31.915 39.915,21.6666667 L20.69,21.6666667 Z"></path>
-                            <path d="M18.3333333,19.31 L18.3333333,0.085 C8.085,0.936666667 0,9.535 0,20 C0,24.915 1.79,29.415 4.74166667,32.9016667 L18.3333333,19.31 Z"></path>
-                          </g>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <a href="javascript:;">
+          <div class="card card-background card-background-mask-primary tilt" data-tilt>
+            <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg&#39;)"></div>
+            <div class="card-body pt-7 text-center">
+              <div class="icon icon-lg up mb-5">
+                <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>chart-pie-35</title>
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-1720.000000, -742.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                      <g transform="translate(1716.000000, 291.000000)">
+                        <g transform="translate(4.000000, 451.000000)">
+                          <path d="M21.6666667,18.3333333 L39.915,18.3333333 C39.11,8.635 31.365,0.89 21.6666667,0.085 L21.6666667,18.3333333 Z" opacity="0.602864583"></path>
+                          <path d="M20.69,21.6666667 L7.09833333,35.2583333 C10.585,38.21 15.085,40 20,40 C30.465,40 39.0633333,31.915 39.915,21.6666667 L20.69,21.6666667 Z"></path>
+                          <path d="M18.3333333,19.31 L18.3333333,0.085 C8.085,0.936666667 0,9.535 0,20 C0,24.915 1.79,29.415 4.74166667,32.9016667 L18.3333333,19.31 Z"></path>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </div>
-                <h1 class="text-white up mb-0">Search and Discover!</h1>
-                <p class="lead up">Website visitors</p>
-                <button type="button" class="btn btn-white btn-lg mt-3 up">Get Started</button>
+                  </g>
+                </svg>
               </div>
+              <h1 class="text-white up mb-0">Search and Discover!</h1>
+              <p class="lead up">Website visitors</p>
+              <button type="button" class="btn btn-outline-white btn-lg mt-3 up">Get Started</button>
             </div>
           </div>
-        </div>
-        <div class="col-md-5 me-auto my-auto ms-md-5">
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>1. Listen to Social Conversations</h5>
-              <p>
-                Gain access to the demographics, psychographics, and location of unique people who are interested and talk about your brand.
-              </p>
-            </div>
-          </div>
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>2. Performance Analyze</h5>
-              <p>
-                Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports.
-              </p>
-            </div>
-          </div>
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>3. Social Conversions</h5>
-              <p>
-                Track actions taken on your website that originated from social, and understand the impact on your bottom line.
-              </p>
-            </div>
-          </div>
-        </div>
+        </a>
       </div>
-      <hr class="dark my-md-6 mt-2 mx-7">
-      <div class="row">
-        <div class="col-md-5 ms-auto my-auto">
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>1. Always In Sync</h5>
-              <p>
-                No matter where you are, Trello stays in sync across all of your devices.
-              </p>
+      <div class="col-lg-4 col-md-6">
+        <a href="javascript:;">
+          <div class="card card-background card-background-mask-primary tilt mt-md-0 mt-5" data-tilt>
+            <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/toboshar.jpg&#39;)"></div>
+            <div class="card-body pt-7 text-center">
+              <div class="icon icon-lg up mb-5">
+                <svg width="40px" height="40px" viewBox="0 0 44 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>megaphone</title>
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-2168.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                      <g transform="translate(1716.000000, 291.000000)">
+                        <g id="megaphone" transform="translate(452.000000, 300.000000)">
+                          <path
+                            d="M35.7958333,0.273166667 C35.2558424,-0.0603712374 34.5817509,-0.0908856664 34.0138333,0.1925 L19.734,7.33333333 L9.16666667,7.33333333 C4.10405646,7.33333333 0,11.4373898 0,16.5 C0,21.5626102 4.10405646,25.6666667 9.16666667,25.6666667 L19.734,25.6666667 L34.0138333,32.8166667 C34.5837412,33.1014624 35.2606401,33.0699651 35.8016385,32.7334768 C36.3426368,32.3969885 36.6701539,31.8037627 36.6666942,31.1666667 L36.6666942,1.83333333 C36.6666942,1.19744715 36.3370375,0.607006911 35.7958333,0.273166667 Z"
+                           ></path>
+                          <path d="M38.5,11 L38.5,22 C41.5375661,22 44,19.5375661 44,16.5 C44,13.4624339 41.5375661,11 38.5,11 Z" opacity="0.601050967"></path>
+                          <path
+                            d="M18.5936667,29.3333333 L10.6571667,29.3333333 L14.9361667,39.864 C15.7423448,41.6604248 17.8234451,42.4993948 19.6501416,41.764381 C21.4768381,41.0293672 22.3968823,38.982817 21.7341667,37.1286667 L18.5936667,29.3333333 Z"
+                            opacity="0.601050967"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <h1 class="text-white up mb-0">Find music and play it!</h1>
+              <p class="lead up">Music search</p>
+              <button type="button" class="btn btn-outline-white btn-lg mt-3 up">Get Started</button>
             </div>
           </div>
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>2. Work With Any Team</h5>
-              <p>
-                Whether it’s for work or even the next family vacation, Trello helps your team.
-              </p>
-            </div>
-          </div>
-          <div class="p-3 info-horizontal d-flex">
-            <div>
-              <h5>3. A Productivity Platform</h5>
-              <p>
-                Integrate the apps your team already uses directly into your workflow.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 me-auto my-auto ms-md-5">
-          <div class="cursor-pointer">
-            <div class="card card-background tilt" data-tilt="">
-              <div class="full-background" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg')"></div>
-              <div class="card-body pt-7 text-center">
-                <div class="icon icon-lg up mb-3">
-                  <svg width="40px" height="40px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 mx-md-auto">
+        <a href="javascript:;">
+          <div class="card card-background card-background-mask-primary tilt mt-lg-0 mt-5" data-tilt>
+            <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/umbrellas.jpg&#39;)"></div>
+            <div class="card-body pt-7 text-center">
+              <div class="icon icon-lg up mb-5">
+                <svg width="40px" height="40px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>customer-support</title>
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                        <g transform="translate(1716.000000, 291.000000)">
-                          <g transform="translate(1.000000, 0.000000)">
-                            <path d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z" opacity="0.59858631"></path>
-                            <path d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z"></path>
-                            <path d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z"></path>
-                          </g>
+                        <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g transform="translate(1716.000000, 291.000000)">
+                                <g transform="translate(1.000000, 0.000000)">
+                                    <path d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z" opacity="0.59858631"></path>
+                                    <path d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z"></path>
+                                    <path d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z"></path>
+                                </g>
+                            </g>
                         </g>
-                      </g>
                     </g>
-                  </svg>
-                </div>
-                <h1 class="text-white up mb-0">Talk and Meet!</h1>
-                <p class="lead up">Social activities</p>
-                <button type="button" class="btn btn-white btn-lg mt-3 up">Get Started</button>
+                </svg>
+              </div>
+                <h1 class="text-white up mb-0">Check bugs and fix!</h1>
+                <p class="lead up">Support requests</p>
+                <button type="button" class="btn btn-outline-white btn-lg mt-3 up">Get Started</button>
               </div>
             </div>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+<!-- END Project section w/ 3 images & quote & text -->
   <!-- -------- START FOOTER 7 w/ DARK BACKGROUND AND 3 COLUMNS ------- -->
   <footer class="footer py-5 bg-gradient-dark position-relative overflow-hidden">
     <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-6">
